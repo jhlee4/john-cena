@@ -120,28 +120,7 @@
         "version": "2.4",
         "closeable": true,
         "uri": "widgets/LayerList/Widget",
-        "config": {
-          "showLegend": true,
-          "contextMenu": {
-            "ZoomTo": true,
-            "Transparency": true,
-            "EnableOrDisablePopup": true,
-            "MoveupOrMovedown": true,
-            "OpenAttributeTable": true,
-            "DescriptionOrShowItemDetailsOrDownload": false
-          },
-          "layerOptions": {
-            "서울_bld_648642_170603_387": {
-              "display": true
-            },
-            "서울_lot_761620_170606_5574": {
-              "display": true
-            },
-            "서울_grp_71196_170607_3883": {
-              "display": true
-            }
-          }
-        }
+        "config": "configs/LayerList/config_LayerList.json"
       },
       {
         "position": {
@@ -157,13 +136,7 @@
         "version": "2.4",
         "closeable": true,
         "uri": "widgets/Legend/Widget",
-        "config": {
-          "legend": {
-            "arrangement": 0,
-            "autoUpdate": true,
-            "respectCurrentMapScale": true
-          }
-        }
+        "config": "configs/Legend/config_Legend.json"
       },
       {
         "position": {
@@ -179,17 +152,7 @@
         "version": "2.4",
         "closeable": true,
         "uri": "widgets/Measurement/Widget",
-        "config": {
-          "measurement": {
-            "defaultAreaUnit": "esriSquareMeters",
-            "defaultLengthUnit": "esriMeters"
-          },
-          "showArea": true,
-          "showDistance": true,
-          "showLocation": true,
-          "defaultAreaUnit": "esriSquareMiles",
-          "defaultLengthUnit": "esriMiles"
-        }
+        "config": "configs/Measurement/config_Measurement.json"
       },
       {
         "uri": "widgets/OverviewMap/Widget",
@@ -296,485 +259,7 @@
         "uri": "widgets/Query/Widget",
         "index": 2,
         "id": "widgets_Query_Widget_36",
-        "config": {
-          "hideLayersAfterWidgetClosed": true,
-          "labelTasks": "탐색",
-          "labelResults": "결과",
-          "queries": [
-            {
-              "url": "https://services7.arcgis.com/1j9V8poIb2mKBbx2/arcgis/rest/services/서울_grp_71196_170607/FeatureServer/0",
-              "name": "법적 대상지 탐색 (자치구)",
-              "icon": "",
-              "filter": {
-                "logicalOperator": "AND",
-                "parts": [
-                  {
-                    "fieldObj": {
-                      "name": "자치구",
-                      "label": "자치구",
-                      "shortType": "string",
-                      "type": "esriFieldTypeString"
-                    },
-                    "operator": "stringOperatorIs",
-                    "valueObj": {
-                      "isValid": true,
-                      "type": "unique",
-                      "value": ""
-                    },
-                    "interactiveObj": {
-                      "prompt": "자치구",
-                      "hint": "",
-                      "cascade": "none"
-                    },
-                    "caseSensitive": false
-                  },
-                  {
-                    "fieldObj": {
-                      "name": "area",
-                      "label": "area",
-                      "shortType": "number",
-                      "type": "esriFieldTypeDouble"
-                    },
-                    "operator": "numberOperatorIsLessThan",
-                    "valueObj": {
-                      "isValid": true,
-                      "type": "value",
-                      "value": 10000
-                    },
-                    "interactiveObj": {
-                      "prompt": "면적 (㎡) _ 다음 미만",
-                      "hint": "법적 기준 : 10,000㎡",
-                      "cascade": "none"
-                    },
-                    "caseSensitive": false
-                  },
-                  {
-                    "fieldObj": {
-                      "name": "노후도",
-                      "label": "노후도",
-                      "shortType": "number",
-                      "type": "esriFieldTypeDouble"
-                    },
-                    "operator": "numberOperatorIsAtLeast",
-                    "valueObj": {
-                      "isValid": true,
-                      "type": "value",
-                      "value": 66
-                    },
-                    "interactiveObj": {
-                      "prompt": "노후불량 건축물 비율 (%) _ 다음 이상",
-                      "hint": "법적 기준 : 66%",
-                      "cascade": "none"
-                    },
-                    "caseSensitive": false
-                  },
-                  {
-                    "fieldObj": {
-                      "name": "호세대",
-                      "label": "호세대",
-                      "shortType": "number",
-                      "type": "esriFieldTypeInteger"
-                    },
-                    "operator": "numberOperatorIsAtLeast",
-                    "valueObj": {
-                      "isValid": true,
-                      "type": "value",
-                      "value": 20
-                    },
-                    "interactiveObj": "",
-                    "caseSensitive": false
-                  },
-                  {
-                    "fieldObj": {
-                      "name": "종전용적률",
-                      "label": "종전용적률",
-                      "shortType": "number",
-                      "type": "esriFieldTypeDouble"
-                    },
-                    "operator": "numberOperatorIsBetween",
-                    "valueObj": {
-                      "isValid": true,
-                      "type": "value",
-                      "value1": 0,
-                      "value2": 1000
-                    },
-                    "interactiveObj": {
-                      "prompt": "종전용적률 (%)",
-                      "hint": "",
-                      "cascade": "none"
-                    },
-                    "caseSensitive": false
-                  },
-                  {
-                    "fieldObj": {
-                      "name": "공시지가",
-                      "label": "공시지가",
-                      "shortType": "number",
-                      "type": "esriFieldTypeDouble"
-                    },
-                    "operator": "numberOperatorIsBetween",
-                    "valueObj": {
-                      "isValid": true,
-                      "type": "value",
-                      "value1": 100000,
-                      "value2": 10000000
-                    },
-                    "interactiveObj": {
-                      "prompt": "공시지가 (원/㎡)",
-                      "hint": "",
-                      "cascade": "none"
-                    },
-                    "caseSensitive": false
-                  },
-                  {
-                    "logicalOperator": "OR",
-                    "parts": [
-                      {
-                        "fieldObj": {
-                          "name": "호_단독",
-                          "label": "호_단독",
-                          "shortType": "number",
-                          "type": "esriFieldTypeInteger"
-                        },
-                        "operator": "numberOperatorIsAtLeast",
-                        "valueObj": {
-                          "isValid": true,
-                          "type": "value",
-                          "value": 10
-                        },
-                        "interactiveObj": "",
-                        "caseSensitive": false
-                      },
-                      {
-                        "fieldObj": {
-                          "name": "세대_공동",
-                          "label": "세대_공동",
-                          "shortType": "number",
-                          "type": "esriFieldTypeInteger"
-                        },
-                        "operator": "numberOperatorIsAtLeast",
-                        "valueObj": {
-                          "isValid": true,
-                          "type": "value",
-                          "value": 20
-                        },
-                        "interactiveObj": "",
-                        "caseSensitive": false
-                      },
-                      {
-                        "fieldObj": {
-                          "name": "호세대",
-                          "label": "호세대",
-                          "shortType": "number",
-                          "type": "esriFieldTypeInteger"
-                        },
-                        "operator": "numberOperatorIsAtLeast",
-                        "valueObj": {
-                          "isValid": true,
-                          "type": "value",
-                          "value": 20
-                        },
-                        "interactiveObj": "",
-                        "caseSensitive": false
-                      }
-                    ]
-                  },
-                  {
-                    "logicalOperator": "AND",
-                    "parts": [
-                      {
-                        "fieldObj": {
-                          "name": "단독주택비",
-                          "label": "단독주택비",
-                          "shortType": "number",
-                          "type": "esriFieldTypeDouble"
-                        },
-                        "operator": "numberOperatorIsAtLeast",
-                        "valueObj": {
-                          "isValid": true,
-                          "type": "value",
-                          "value": 0
-                        },
-                        "interactiveObj": {
-                          "prompt": "단독주택 비율 (%) _ 다음 이상",
-                          "hint": "",
-                          "cascade": "none"
-                        },
-                        "caseSensitive": false
-                      },
-                      {
-                        "fieldObj": {
-                          "name": "아파트비율",
-                          "label": "아파트비율",
-                          "shortType": "number",
-                          "type": "esriFieldTypeDouble"
-                        },
-                        "operator": "numberOperatorIsAtLeast",
-                        "valueObj": {
-                          "isValid": true,
-                          "type": "value",
-                          "value": 0
-                        },
-                        "interactiveObj": {
-                          "prompt": "아파트 비율 (%) _ 다음 이상",
-                          "hint": "",
-                          "cascade": "none"
-                        },
-                        "caseSensitive": false
-                      },
-                      {
-                        "fieldObj": {
-                          "name": "연립주택비",
-                          "label": "연립주택비",
-                          "shortType": "number",
-                          "type": "esriFieldTypeDouble"
-                        },
-                        "operator": "numberOperatorIsAtLeast",
-                        "valueObj": {
-                          "isValid": true,
-                          "type": "value",
-                          "value": 0
-                        },
-                        "interactiveObj": {
-                          "prompt": "연립주택 비율 (%) _ 다음 이상",
-                          "hint": "",
-                          "cascade": "none"
-                        },
-                        "caseSensitive": false
-                      },
-                      {
-                        "fieldObj": {
-                          "name": "다세대주_1",
-                          "label": "다세대주_1",
-                          "shortType": "number",
-                          "type": "esriFieldTypeDouble"
-                        },
-                        "operator": "numberOperatorIsAtLeast",
-                        "valueObj": {
-                          "isValid": true,
-                          "type": "value",
-                          "value": 0
-                        },
-                        "interactiveObj": {
-                          "prompt": "다세대주택 비율 (%) _ 다음 이상",
-                          "hint": "",
-                          "cascade": "none"
-                        },
-                        "caseSensitive": false
-                      }
-                    ]
-                  },
-                  {
-                    "logicalOperator": "AND",
-                    "parts": [
-                      {
-                        "fieldObj": {
-                          "name": "N_용도지역",
-                          "label": "N_용도지역",
-                          "shortType": "string",
-                          "type": "esriFieldTypeString"
-                        },
-                        "operator": "stringOperatorContains",
-                        "valueObj": {
-                          "isValid": true,
-                          "type": "value",
-                          "value": ""
-                        },
-                        "interactiveObj": {
-                          "prompt": "용도지역지구(포함)",
-                          "hint": "",
-                          "cascade": "none"
-                        },
-                        "caseSensitive": false
-                      },
-                      {
-                        "fieldObj": {
-                          "name": "N_용도지역",
-                          "label": "N_용도지역",
-                          "shortType": "string",
-                          "type": "esriFieldTypeString"
-                        },
-                        "operator": "stringOperatorContains",
-                        "valueObj": {
-                          "isValid": true,
-                          "type": "value",
-                          "value": ""
-                        },
-                        "interactiveObj": {
-                          "prompt": "용도지역지구(포함)",
-                          "hint": "",
-                          "cascade": "none"
-                        },
-                        "caseSensitive": false
-                      },
-                      {
-                        "fieldObj": {
-                          "name": "N_용도지역",
-                          "label": "N_용도지역",
-                          "shortType": "string",
-                          "type": "esriFieldTypeString"
-                        },
-                        "operator": "stringOperatorContains",
-                        "valueObj": {
-                          "isValid": true,
-                          "type": "value",
-                          "value": ""
-                        },
-                        "interactiveObj": {
-                          "prompt": "용도지역지구(포함)",
-                          "hint": "",
-                          "cascade": "none"
-                        },
-                        "caseSensitive": false
-                      },
-                      {
-                        "fieldObj": {
-                          "name": "N_용도지역",
-                          "label": "N_용도지역",
-                          "shortType": "string",
-                          "type": "esriFieldTypeString"
-                        },
-                        "operator": "stringOperatorContains",
-                        "valueObj": {
-                          "isValid": true,
-                          "type": "value",
-                          "value": ""
-                        },
-                        "interactiveObj": {
-                          "prompt": "용도지역지구(포함)",
-                          "hint": "",
-                          "cascade": "none"
-                        },
-                        "caseSensitive": false
-                      },
-                      {
-                        "fieldObj": {
-                          "name": "N_용도지역",
-                          "label": "N_용도지역",
-                          "shortType": "string",
-                          "type": "esriFieldTypeString"
-                        },
-                        "operator": "stringOperatorDoesNotContain",
-                        "valueObj": {
-                          "isValid": true,
-                          "type": "value",
-                          "value": ""
-                        },
-                        "interactiveObj": {
-                          "prompt": "용도지역지구(비포함)",
-                          "hint": "",
-                          "cascade": "none"
-                        },
-                        "caseSensitive": false
-                      },
-                      {
-                        "fieldObj": {
-                          "name": "N_용도지역",
-                          "label": "N_용도지역",
-                          "shortType": "string",
-                          "type": "esriFieldTypeString"
-                        },
-                        "operator": "stringOperatorDoesNotContain",
-                        "valueObj": {
-                          "isValid": true,
-                          "type": "value",
-                          "value": ""
-                        },
-                        "interactiveObj": {
-                          "prompt": "용도지역지구(비포함)",
-                          "hint": "",
-                          "cascade": "none"
-                        },
-                        "caseSensitive": false
-                      },
-                      {
-                        "fieldObj": {
-                          "name": "N_용도지역",
-                          "label": "N_용도지역",
-                          "shortType": "string",
-                          "type": "esriFieldTypeString"
-                        },
-                        "operator": "stringOperatorDoesNotContain",
-                        "valueObj": {
-                          "isValid": true,
-                          "type": "value",
-                          "value": ""
-                        },
-                        "interactiveObj": {
-                          "prompt": "용도지역지구(비포함)",
-                          "hint": "",
-                          "cascade": "none"
-                        },
-                        "caseSensitive": false
-                      },
-                      {
-                        "fieldObj": {
-                          "name": "N_용도지역",
-                          "label": "N_용도지역",
-                          "shortType": "string",
-                          "type": "esriFieldTypeString"
-                        },
-                        "operator": "stringOperatorDoesNotContain",
-                        "valueObj": {
-                          "isValid": true,
-                          "type": "value",
-                          "value": ""
-                        },
-                        "interactiveObj": {
-                          "prompt": "용도지역지구(비포함)",
-                          "hint": "",
-                          "cascade": "none"
-                        },
-                        "caseSensitive": false
-                      }
-                    ]
-                  }
-                ],
-                "expr": ""
-              },
-              "showSQL": false,
-              "spatialFilter": {
-                "currentMapExtent": null,
-                "drawing": null,
-                "useFeatures": null,
-                "fullLayerExtent": {
-                  "default": true
-                }
-              },
-              "popupInfo": {
-                "readFromWebMap": true
-              },
-              "orderByFields": [],
-              "useLayerSymbol": false,
-              "resultsSymbol": {
-                "color": [
-                  246,
-                  91,
-                  60,
-                  125
-                ],
-                "outline": {
-                  "color": [
-                    130,
-                    130,
-                    130,
-                    255
-                  ],
-                  "width": 0.75,
-                  "type": "esriSLS",
-                  "style": "esriSLSSolid"
-                },
-                "type": "esriSFS",
-                "style": "esriSFSSolid"
-              },
-              "canModifySymbol": true,
-              "keepResultsOnMapAfterCloseWidget": true,
-              "enableExport": true,
-              "singleResultLayer": false,
-              "webMapLayerId": "서울_grp_71196_170607_3883"
-            }
-          ]
-        }
+        "config": "configs/Query/config_탐색.json"
       },
       {
         "name": "Print",
@@ -782,6 +267,21 @@
         "uri": "widgets/Print/Widget",
         "index": 3,
         "id": "widgets_Print_Widget_35"
+      },
+      {
+        "name": "GenerateReport",
+        "version": "2.4",
+        "uri": "widgets/GenerateReport/Widget",
+        "index": 5,
+        "id": "widgets_GenerateReport_Widget_37"
+      },
+      {
+        "name": "Testing",
+        "version": "2.4",
+        "uri": "widgets/Testing/Widget",
+        "index": 6,
+        "id": "widgets_Testing_Widget_38",
+        "openAtStart": true
       }
     ],
     "groups": []
@@ -968,6 +468,6 @@
   "isWebTier": false,
   "httpProxy": {
     "useProxy": true,
-    "url": "/proxy.js"
+    "url": "https://user-pc:3344/proxy.js"
   }
 }

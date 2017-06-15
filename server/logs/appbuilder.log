@@ -179,3 +179,136 @@
 [2017-06-15 12:30:59.857] [DEBUG] utils - copy C:\Users\user\Documents\WebAppBuilderForArcGIS\client\stemapp\widgets\Query
 [2017-06-15 12:30:59.974] [DEBUG] utils - copy C:\Users\user\Documents\WebAppBuilderForArcGIS\client\stemapp\widgets\Print
 [2017-06-15 12:31:00.048] [INFO] app - App is imported. Name:[부산시_Smart Search]. New app [name is:부산시_Smart Search, id is:4]
+[2017-06-15 12:41:46.992] [INFO] server - Set isXT = true; /webappbuilder/apps/4/env.js
+[2017-06-15 12:44:17.636] [INFO] repo - insert HTML.GenerateReport
+[2017-06-15 12:44:17.702] [INFO] repo - insert HTML.PopupPanel
+[2017-06-15 12:44:18.712] [INFO] repo - insert HTML.Report
+[2017-06-15 12:58:36.181] [INFO] repo - Read repository items: C:\Users\user\Documents\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2017-06-15 12:58:37.797] [INFO] repo - insert HTML.Testing
+[2017-06-15 12:58:37.797] [INFO] repo - insert HTML.WidgetB
+[2017-06-15 12:58:37.798] [INFO] repo - insert HTML.WidgetA
+[2017-06-15 12:58:37.800] [INFO] repo - Read repository items: C:\Users\user\Documents\WebAppBuilderForArcGIS\client\stemapp\themes
+[2017-06-15 12:58:38.161] [INFO] repo - Read repository items: C:\Users\user\Documents\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2017-06-15 12:58:38.669] [INFO] repo - Read repository items: C:\Users\user\Documents\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2017-06-15 12:58:39.633] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 12:58:42.621] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 13:05:05.887] [INFO] repo - Read repository items: C:\Users\user\Documents\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2017-06-15 13:05:07.493] [INFO] repo - Read repository items: C:\Users\user\Documents\WebAppBuilderForArcGIS\client\stemapp\themes
+[2017-06-15 13:05:07.846] [INFO] repo - Read repository items: C:\Users\user\Documents\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2017-06-15 13:05:08.338] [INFO] repo - Read repository items: C:\Users\user\Documents\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2017-06-15 13:05:09.308] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 13:05:13.222] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 13:05:29.249] [INFO] server - Set isXT = true; /webappbuilder/apps/4/env.js
+[2017-06-15 13:05:43.281] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 13:05:47.927] [INFO] server - Set isXT = true; /webappbuilder/apps/2/env.js
+[2017-06-15 14:54:13.441] [INFO] repo - Read repository items: C:\Users\user\Documents\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2017-06-15 14:54:15.069] [INFO] repo - Read repository items: C:\Users\user\Documents\WebAppBuilderForArcGIS\client\stemapp\themes
+[2017-06-15 14:54:15.433] [INFO] repo - Read repository items: C:\Users\user\Documents\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2017-06-15 14:54:15.928] [INFO] repo - Read repository items: C:\Users\user\Documents\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2017-06-15 14:54:16.845] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 14:54:22.007] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 14:54:30.071] [INFO] server - Set isXT = true; /webappbuilder/apps/3/env.js
+[2017-06-15 15:03:20.880] [INFO] repo - Read repository items: C:\Users\user\Documents\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2017-06-15 15:03:22.493] [INFO] repo - Read repository items: C:\Users\user\Documents\WebAppBuilderForArcGIS\client\stemapp\themes
+[2017-06-15 15:03:22.845] [INFO] repo - Read repository items: C:\Users\user\Documents\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2017-06-15 15:03:23.346] [INFO] repo - Read repository items: C:\Users\user\Documents\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2017-06-15 15:03:24.338] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 15:03:26.469] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 15:03:42.786] [INFO] server - Set isXT = true; /webappbuilder/apps/3/env.js
+[2017-06-15 15:07:56.606] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 15:07:59.675] [INFO] server - Set isXT = true; /webappbuilder/apps/3/env.js
+[2017-06-15 15:08:41.962] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 15:08:43.976] [INFO] server - Set isXT = true; /webappbuilder/apps/3/env.js
+[2017-06-15 15:11:20.160] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 15:11:23.595] [INFO] server - Set isXT = true; /webappbuilder/apps/3/env.js
+[2017-06-15 15:19:50.702] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 15:19:53.689] [INFO] server - Set isXT = true; /webappbuilder/apps/3/env.js
+[2017-06-15 15:20:12.007] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 15:20:14.131] [INFO] server - Set isXT = true; /webappbuilder/apps/3/env.js
+[2017-06-15 15:26:22.001] [INFO] repo - Read repository items: C:\Users\user\Documents\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2017-06-15 15:26:23.737] [INFO] repo - Read repository items: C:\Users\user\Documents\WebAppBuilderForArcGIS\client\stemapp\themes
+[2017-06-15 15:26:24.170] [INFO] repo - Read repository items: C:\Users\user\Documents\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2017-06-15 15:26:24.693] [INFO] repo - Read repository items: C:\Users\user\Documents\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2017-06-15 15:26:25.397] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 15:26:27.622] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 15:26:36.215] [INFO] server - Set isXT = true; /webappbuilder/apps/3/env.js
+[2017-06-15 15:32:29.422] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 15:32:32.397] [INFO] server - Set isXT = true; /webappbuilder/apps/3/env.js
+[2017-06-15 15:35:26.232] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 15:35:29.017] [INFO] server - Set isXT = true; /webappbuilder/apps/3/env.js
+[2017-06-15 15:36:14.716] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 15:36:16.740] [INFO] server - Set isXT = true; /webappbuilder/apps/3/env.js
+[2017-06-15 15:52:33.866] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 15:52:36.905] [INFO] server - Set isXT = true; /webappbuilder/apps/3/env.js
+[2017-06-15 16:05:31.727] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 16:05:34.912] [INFO] server - Set isXT = true; /webappbuilder/apps/3/env.js
+[2017-06-15 16:06:58.326] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 16:07:01.102] [INFO] server - Set isXT = true; /webappbuilder/apps/3/env.js
+[2017-06-15 16:22:08.681] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 16:22:12.678] [INFO] server - Set isXT = true; /webappbuilder/apps/3/env.js
+[2017-06-15 16:26:55.890] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 16:26:58.709] [INFO] server - Set isXT = true; /webappbuilder/apps/3/env.js
+[2017-06-15 16:28:16.596] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 16:28:19.613] [INFO] server - Set isXT = true; /webappbuilder/apps/3/env.js
+[2017-06-15 16:32:40.538] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 16:32:44.166] [INFO] server - Set isXT = true; /webappbuilder/apps/3/env.js
+[2017-06-15 16:33:25.133] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 16:33:27.190] [INFO] server - Set isXT = true; /webappbuilder/apps/3/env.js
+[2017-06-15 16:34:11.707] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 16:34:13.931] [INFO] server - Set isXT = true; /webappbuilder/apps/3/env.js
+[2017-06-15 16:39:15.188] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 16:39:18.166] [INFO] server - Set isXT = true; /webappbuilder/apps/3/env.js
+[2017-06-15 16:50:11.857] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 16:50:15.137] [INFO] server - Set isXT = true; /webappbuilder/apps/3/env.js
+[2017-06-15 16:54:32.737] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 16:54:36.549] [INFO] server - Set isXT = true; /webappbuilder/apps/3/env.js
+[2017-06-15 16:55:24.873] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 16:55:26.933] [INFO] server - Set isXT = true; /webappbuilder/apps/3/env.js
+[2017-06-15 16:56:58.575] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 16:57:03.207] [INFO] server - Set isXT = true; /webappbuilder/apps/3/env.js
+[2017-06-15 17:00:06.214] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 17:00:11.565] [INFO] server - Set isXT = true; /webappbuilder/apps/3/env.js
+[2017-06-15 17:01:06.782] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 17:01:09.004] [INFO] server - Set isXT = true; /webappbuilder/apps/3/env.js
+[2017-06-15 17:06:51.531] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 17:06:54.497] [INFO] server - Set isXT = true; /webappbuilder/apps/3/env.js
+[2017-06-15 17:30:49.168] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 17:30:52.719] [INFO] server - Set isXT = true; /webappbuilder/apps/3/env.js
+[2017-06-15 17:40:26.746] [INFO] repo - Read repository items: C:\Users\user\Documents\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2017-06-15 17:40:28.523] [INFO] repo - Read repository items: C:\Users\user\Documents\WebAppBuilderForArcGIS\client\stemapp\themes
+[2017-06-15 17:40:28.916] [INFO] repo - Read repository items: C:\Users\user\Documents\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2017-06-15 17:40:29.467] [INFO] repo - Read repository items: C:\Users\user\Documents\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2017-06-15 17:40:30.177] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 17:40:32.410] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 17:40:40.180] [INFO] server - Set isXT = true; /webappbuilder/apps/3/env.js
+[2017-06-15 17:41:22.790] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 17:41:24.614] [INFO] server - Set isXT = true; /webappbuilder/apps/3/env.js
+[2017-06-15 17:41:26.050] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 17:41:28.844] [INFO] server - Set isXT = true; /webappbuilder/apps/3/env.js
+[2017-06-15 17:43:44.450] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 17:43:47.563] [INFO] server - Set isXT = true; /webappbuilder/apps/3/env.js
+[2017-06-15 17:45:19.545] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 17:45:23.443] [INFO] server - Set isXT = true; /webappbuilder/apps/3/env.js
+[2017-06-15 17:51:00.909] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 17:51:04.279] [INFO] server - Set isXT = true; /webappbuilder/apps/3/env.js
+[2017-06-15 18:04:24.649] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 18:04:30.775] [INFO] server - Set isXT = true; /webappbuilder/apps/3/env.js
+[2017-06-15 18:13:04.670] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 18:13:09.934] [INFO] server - Set isXT = true; /webappbuilder/apps/3/env.js
+[2017-06-15 18:18:27.900] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 18:18:30.431] [INFO] server - Set isXT = true; /webappbuilder/apps/3/env.js
+[2017-06-15 18:27:24.777] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 18:27:27.801] [INFO] server - Set isXT = true; /webappbuilder/apps/3/env.js
+[2017-06-15 18:33:16.518] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 18:33:22.576] [INFO] server - Set isXT = true; /webappbuilder/apps/3/env.js
+[2017-06-15 18:44:49.399] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 18:44:52.531] [INFO] server - Set isXT = true; /webappbuilder/apps/3/env.js
+[2017-06-15 18:48:29.188] [DEBUG] utils - copy C:\Users\user\Documents\WebAppBuilderForArcGIS\client\stemapp\widgets\Chart
+[2017-06-15 18:58:29.626] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 18:58:32.931] [INFO] server - Set isXT = true; /webappbuilder/apps/3/env.js
+[2017-06-15 18:58:55.109] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 18:58:57.274] [INFO] server - Set isXT = true; /webappbuilder/apps/3/env.js
+[2017-06-15 19:01:19.932] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 19:01:23.568] [INFO] server - Set isXT = true; /webappbuilder/apps/3/env.js
+[2017-06-15 19:02:23.963] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-15 19:02:26.742] [INFO] server - Set isXT = true; /webappbuilder/apps/3/env.js

@@ -757,6 +757,13 @@ define([
         if(value){
           resultLayerInfo = this._getResultLayerInfoByValue(value);
         }
+       console.log(resultLayerInfo);
+       var SearchResult = resultLayerInfo.singleQueryResult.resultsContainer.firstElementChild.firstElementChild;
+       this.publishData({
+            data: SearchResult
+        });
+        console.log(SearchResult);
+        console.log("Data published");
         return resultLayerInfo;
       },
 
