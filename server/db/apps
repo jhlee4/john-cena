@@ -1,0 +1,24 @@
+{"k":"0000000096","o":"0000000352","v":"001"}
+{"_id":"HTML_basic_viewer","_uid":1,"_dt":1497497400503,"_s":"b4a0ca15b65209f5067d72cb31129e65"}
+{"createdTime":1439251200000,"lastUpdated":1439251200000,"creator":"Esri","appType":"HTML","_id":"HTML_basic_viewer","id":"HTML_basic_viewer","predefinedId":"basic_viewer","thumbnail":"images/thumbnail.jpg","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","isTemplate":true,"isPredefined":true,"portalUrl":"*","modified":"Esri"}
+{"k":"0000000091","o":"0000000338","v":"001"}
+{"_id":"HTML_default","_uid":1,"_dt":1497497400505,"_s":"16c136273d74cb045f9f6b89a61a3a1f"}
+{"createdTime":1439337600000,"lastUpdated":1439337600000,"creator":"Esri","appType":"HTML","_id":"HTML_default","id":"HTML_default","predefinedId":"default","thumbnail":"images/thumbnail.jpg","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","isTemplate":false,"isPredefined":true,"portalUrl":"*","modified":"Esri"}
+{"k":"0000000090","o":"0000000334","v":"001"}
+{"_id":"HTML_editor","_uid":1,"_dt":1497497401623,"_s":"f6a0807651b36509f6384ba66ded6522"}
+{"createdTime":1439251200000,"lastUpdated":1439251200000,"creator":"Esri","appType":"HTML","_id":"HTML_editor","id":"HTML_editor","predefinedId":"editor","thumbnail":"images/thumbnail.jpg","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","isTemplate":true,"isPredefined":true,"portalUrl":"*","modified":"Esri"}
+{"k":"0000000101","o":"0000000367","v":"001"}
+{"_id":"HTML_simple_map_viewer","_uid":1,"_dt":1497497401623,"_s":"4cc4b7a0e68434d5d7fdd149777f0013"}
+{"createdTime":1439251200000,"lastUpdated":1439251200000,"creator":"Esri","appType":"HTML","_id":"HTML_simple_map_viewer","id":"HTML_simple_map_viewer","predefinedId":"simple_map_viewer","thumbnail":"images/thumbnail.jpg","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","isTemplate":true,"isPredefined":true,"portalUrl":"*","modified":"Esri"}
+{"k":"0000000093","o":"0000000390","v":"001"}
+{"_id":"HTML3D_default","_uid":1,"_dt":1497497401641,"_s":"79d5a5b1521058616f3b7b7029e9942f"}
+{"name":"Default","description":"_Default","createdTime":1439337600000,"lastUpdated":1439337600000,"creator":"Esri","appType":"HTML3D","_id":"HTML3D_default","id":"HTML3D_default","predefinedId":"default","thumbnail":"images/thumbnail.jpg","stemappPath":"client\\stemapp3d\\","stemappUrl":"/webappbuilder/stemapp3d/","isTemplate":false,"isPredefined":true,"portalUrl":"*","modified":"Esri"}
+{"k":"0000000078","o":"0000000343","v":"001"}
+{"_id":2,"_uid":1,"_dt":1497497440450,"_s":"53ebe7b1f5974caa868c2baf0886a66c"}
+{"_id":2,"id":2,"name":"서울시_Smart Search","description":"","lastUpdated":1497497440450,"createdTime":1497497440450,"appType":"HTML","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","creator":"arcgoogle6","modified":1497497440450,"portalUrl":"//bobfactory6.maps.arcgis.com","isTemplate":false,"isPredefined":false}
+{"k":"0000000078","o":"0000000343","v":"001"}
+{"_id":3,"_uid":1,"_dt":1497497450071,"_s":"d35027d81d4ce439fb3ab5b54c2d4744"}
+{"_id":3,"id":3,"name":"부천시_Smart Search","description":"","lastUpdated":1497497450071,"createdTime":1497497450071,"appType":"HTML","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","creator":"arcgoogle6","modified":1497497450071,"portalUrl":"//bobfactory6.maps.arcgis.com","isTemplate":false,"isPredefined":false}
+{"k":"0000000078","o":"0000000343","v":"001"}
+{"_id":4,"_uid":1,"_dt":1497497458352,"_s":"9b4f23a436ca9131e11c17eed374bc1e"}
+{"_id":4,"id":4,"name":"부산시_Smart Search","description":"","lastUpdated":1497497458352,"createdTime":1497497458352,"appType":"HTML","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","creator":"arcgoogle6","modified":1497497458352,"portalUrl":"//bobfactory6.maps.arcgis.com","isTemplate":false,"isPredefined":false}
